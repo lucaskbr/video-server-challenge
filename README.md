@@ -62,11 +62,14 @@ This makes components exchangeable at any level and facilitates test automation.
 * [BCrypt](https://www.npmjs.com/package/bcrypt)
 * [Json Web Token](https://www.npmjs.com/package/jsonwebtoken)
 * [DotEnv](https://www.npmjs.com/package/dotenv)
+* [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
 
 
 ## 🔨 To improve
 - **TDD** - Tests coverage at least 80%
 - **Docker** - Create docker-compose file
+- **Conventional commits** - Split commits in minor parts - (I didn't do it because I was improving my knowledge in hexagonal arch)
 
 ## 🧔 Author
 
