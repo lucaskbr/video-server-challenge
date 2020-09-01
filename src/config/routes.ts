@@ -27,7 +27,7 @@ const roomsRouteFactory = new RoomsRouteFactory()
 router.post('/auth/login', routerAdapter(authFactory.login()))
 
 // users
-router.get('/', routerAdapter(usersRouteFactory.getAll()))
+router.get('/users', routerAdapter(usersRouteFactory.getAll()))
 
 router.post('/users', routerAdapter(usersRouteFactory.register()))
 
