@@ -6,10 +6,10 @@ export class Authentication implements SignJwtPort {
     jwt.sign({
       expiresIn: '2 days',
       data: signJwtParams
-    }, 'TAURIA')
+    }, process.env.SECRET)
   )
 
   verify = (token: string): any => (
-    jwt.verify(token, 'TAURIA')
+    jwt.verify(token, process.env.SECRET)
   )
 }
